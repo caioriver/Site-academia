@@ -1,0 +1,55 @@
+
+table {
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+th {
+    border: solid 0.2vh black;
+}
+
+td {
+    border: solid 0.2vh;
+}
+
+.table-control {
+    width: auto;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 90vw 
+}
+
+.table-matricula {
+    width: 20vw;
+}
+.table-nome {
+    width: 40vw;
+}
+.table-cpf {
+    width: 20vw;
+    margin: 0;
+}
+.table-gender {
+    width: 20vw;
+}
+.pesquisa{
+    float: right;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    margin-left: 65vw !important;
+}
+input.input, textarea.input {
+    position: relative;
+    width: 50vw;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+}
+
+.inputBox {
+    box-sizing: border-box;
+    margin-top: 9vh;
+    width: 20%;
+    padding: .7vw;
+}

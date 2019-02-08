@@ -1,0 +1,73 @@
+form{
+    padding-top: 2vh;
+}
+
+.inputBox{
+    box-sizing: border-box;
+    padding-top: 9vh;
+    width: 50%;
+}
+input.input, textarea.input{
+    position: relative;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000; 
+}
+.inputText{
+    position: absolute;
+    line-height: 50px;
+    font-size: 15px;
+    transition: .5s;
+    color: #000000;
+    margin-top: -10px;
+    font-weight: bold;
+    font-style: italic;
+}
+.inputRadio{
+    position: absolute;
+    line-height: 50px;
+    font-size: 20px;
+    color: #000000;
+    margin-top: -10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.focus .inputText{
+    transform: translateY(-25px);
+    font-size: 12px;
+    opacity: 1;
+    color: #000000;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #525252;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+    width: 80%;
+    height: 150%;
+}
+
+.lupa{
+    background-color: rgba(0, 0, 0, 0)
+}
+
+@media (max-width: 991px){
+    .inputRadio { 
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 575px){
+    .inputRadio { 
+        font-size: 20px;
+    }
+
+}
